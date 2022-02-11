@@ -1,0 +1,7 @@
+"D:\Programs\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Programs/CLion 2021.3.2/bin/ninja/win/ninja.exe" -G Ninja D:\Games\cp77modding\cpmpvoice
+-- regex.h POSIX header NOT found and NOT available from TRE
+-- Could NOT find Regex (missing: TRE_INCLUDE_DIR TRE_LIBRARY) 
+-- Could NOT find JACK (missing: JACK_INCLUDEDIR PTHREADS_AVAILABLE Regex_FOUND) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Games/cp77modding/cpmpvoice/cmake-build-debug

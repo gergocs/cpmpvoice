@@ -1,0 +1,113 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ef77d50db69279b2d392.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "portaudio",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-portaudio-Debug-cf5287ac198567eec3e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "portaudio",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpmpvoice",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "PortAudio",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "PortAudio::@7bdaf24a3bf74634aa6c",
+					"jsonFile" : "target-PortAudio-Debug-3695b6b3f0408e673eaf.json",
+					"name" : "PortAudio",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpmpvoice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpmpvoice-Debug-9e511df61147609689a0.json",
+					"name" : "cpmpvoice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@7bdaf24a3bf74634aa6c",
+					"jsonFile" : "target-uninstall-Debug-fd2259dd8fac8186e0f5.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Games/cp77modding/cpmpvoice/cmake-build-debug",
+		"source" : "D:/Games/cp77modding/cpmpvoice"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
